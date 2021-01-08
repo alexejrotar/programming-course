@@ -1,6 +1,6 @@
 let a = 5;
 let b = 8;
-let c = 10;
+let c = 14;
 
 let mean = 0;
 
