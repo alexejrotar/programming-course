@@ -1,5 +1,7 @@
-let favoriteNumber;
-favoriteNumber = 27;
+function favorite() {
+  let favoriteNumber;
+  favoriteNumber = 27;
 
-const favoriteNumberSpan = document.getElementById("favoriteNumber");
-favoriteNumberSpan.innerHTML = favoriteNumber;
+  const favoriteNumberSpan = document.getElementById("favoriteNumber");
+  favoriteNumberSpan.innerHTML = favoriteNumber;
+}
