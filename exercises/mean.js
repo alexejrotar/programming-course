@@ -11,3 +11,5 @@ function mean() {
   abcSpan.innerHTML = `${a}, ${b}, ${c}`;
   meanSpan.innerHTML = mean;
 }
+
+mean();

@@ -10,3 +10,5 @@ function swap() {
   const afterSwapSpan = document.getElementById("afterSwap");
   afterSwapSpan.innerHTML = `a=${a}, b=${b}`;
 }
+
+swap();

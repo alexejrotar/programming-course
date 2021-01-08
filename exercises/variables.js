@@ -5,3 +5,5 @@ function favorite() {
   const favoriteNumberSpan = document.getElementById("favoriteNumber");
   favoriteNumberSpan.innerHTML = favoriteNumber;
 }
+
+favorite();
