@@ -1,3 +1,11 @@
-body {
-  font-family: sans-serif;
+.exercise {
+  margin-bottom: 3px;
+  padding: 3px;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2);
+}
+
+.chapter {
+  margin-bottom: 3px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px #ddd;
 }
