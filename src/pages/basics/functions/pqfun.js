@@ -2,9 +2,6 @@
   let x1;
   let x2;
 
-  let output = `<p>x1 = ${x1}, x2 = ${x2}</p>`;
-  appendTo('pqform', output);
-
   function roots(p, q) {
     let x1 = (-p+(p**2-4*q)**(1/2))/2;
     let x2 = (-p-(p**2-4*q)**(1/2))/2;
