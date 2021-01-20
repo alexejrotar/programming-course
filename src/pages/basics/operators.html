@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Basics</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+    shrink-to-fit=">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles.css">
+    <script src="../../util.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>JavaScript Basics</h1>
+
+      <section class="chapter">
+        <h2>Arbeiten mit Variablen: Operatoren</h2>
+        <p>
+        Wir haben gesehen, wie man mittels Variablen auf Speicher zugreifen kann.
+        Wenn wir allerdings nichts mit den Werten in unserem Speicher tun können,
+        als sie zu lesen und zu schreiben, können wir keine besonders aufregenden
+        Dinge damit tun. Was uns fehlt sind <em>Operatoren</em>, um Variablen und
+        Konstanten auf verschiedene Weise miteinander zu verknüpfen. Zum Beispiel
+        wollen wir gelegentlich zwei Werte miteinander addieren. Also brauchen wir
+        den Operator <code>+</code>. Welche Operatoren könnten uns noch
+        interessieren, um vernünftig rechnen können?
+        </p>
+
+        <section class="exercise">
+          <h2>Operator Spielplatz</h2>
+          <p>
+          Überlege dir verschiedene Rechenaufgaben. Welche Operatoren verwendest
+          du? Welche Regeln sollten gelten, damit wir wie gewohnt damit umgehen
+          können? Öffne die Datei <code>exercises/operators.js</code>. Spiele
+          mit den verschiedenen Operatoren herum und lass dir die Ergebnise
+          ausgeben.
+          </p>
+          <div id="operators" class="output"></div>
+        </section>
+
+        <section class="exercise">
+          <h2>Mitternachtsformel (p-q-Formel)</h2>
+          <p>
+          Öffne die Datei <code>exercises/pqformula.js</code>.  Berechne die
+          Nullstellen von f(x) = x<sup>2</sup> + 1/2x - 6.
+          </p>
+          <div class="output" id="pqform">
+            <p>
+              Die Nullstellen lauten:
+            </p>
+          </div>
+        </section>
+      </section>
+    </div>
+
+    <script src="exercises/pqformula.js"></script>
+    <script src="exercises/operators.js"></script>
+  </body>
+</html>
