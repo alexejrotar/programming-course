@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <%- include('head') %>
+  </head>
+  <body>
+    <div class="container">
+      <h1><%= title %></h1>
+      <nav>
+        <ol>
+          <%_ links.forEach(function(link) { %>
+          <li>
+            <a href="<%= link.path %>"><%= link.text %></a>
+          </li>
+          <%_ }); %>
+        </ol>
+      </nav>
+  </body>
+</html>

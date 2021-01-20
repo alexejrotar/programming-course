@@ -1,0 +1,29 @@
+{
+  "title": "JavaScript Basics",
+  "links": [
+    {
+      "path": "operators/operators.html",
+      "text": "Operatoren"
+    },
+    {
+      "path": "functions/functions.html",
+      "text": "Funktionen"
+    },
+    {
+      "path": "branching/branching.html",
+      "text": "Verzweigungen"
+    },
+    {
+      "path": "loops/loops.html",
+      "text": "Schleifen"
+    },
+    {
+      "path": "types/types.html",
+      "text": "Datentypen"
+    },
+    {
+      "path": "appendix/appendix.html",
+      "text": "Sonstiges"
+    }
+  ]
+}
