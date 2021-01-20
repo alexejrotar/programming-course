@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Basics</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+    shrink-to-fit=">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles.css">
+    <script src="../../util.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>JavaScript Basics</h1>
+
+      <section class="chapter">
+        <h2>Bedingungen und Verzweigungen: die <code>if</code> Anweisung</h2>
+        <p>
+        Wir haben bereits gelernt, wie man mit JavaScript rechnen kann.
+        Das alleine reicht allerdings nicht, um wirklich interessante Aufgaben
+        lösen zu können. Zum Beispiel haben wir schon über das Sortieren
+        gesprochen. Wenn uns nicht als Rechenoperatoren zur Verfügung steht,
+        können wir dieses Problem kaum lösen.
+        </p>
+
+        <section class="exercise">
+          <h2>Das Maximum bestimmen</h2>
+          <p>
+          Versuche eine Funktion zu schreiben, die zwei Zahlen bekommt und deren
+          Maximum, also die größere von beiden, zurückgibt. Woran scheiterst du?
+          </p>
+        </section>
+
+        <p>
+        Was wir brauchen ist eine Möglichkeit, <em>Bedingungen</em> zu prüfen
+        und abhängig vom Ausgang der Überprüfung zu <em>verzweigen</em>. Das
+        können wir in JavaScript mit Hilfe vom <code>if</code> Befehl erreichen.
+        </p>
+
+        <section class="exercise">
+          <h2>Noch ein Versuch: Das Maximum bestimmen</h2>
+          <p>
+          Öffne die Datei <code>exercises/max.js</code>.  Verwende
+          <code>if</code> Bedingungen, um die Maximumsfunktion zu
+          implementieren.
+          </p>
+          <div id="max" class="output">
+            <p>Das Maximum von 10 und 8 lautet:</p>
+          </div>
+        </section>
+
+        <section class="exercise">
+          <h2>Betragsfunktion</h2>
+          <p>
+          Öffne die Datei <code>exercises/abs.js</code>.  Schreibe eine
+          Funktion, die eine Zahl bekommt und den Betrag zurückgibt.
+          </p>
+          <div id="abs-a" class="output">
+            <p>Der Betrag von 5 lautet:</p>
+          </div>
+          <div id="abs-b" class="output">
+            <p>Der Betrag von -8 lautet:</p>
+          </div>
+        </section>
+
+        <section class="exercise">
+          <h2>Eine verbesserte Version der Mitternachtsformel</h2>
+          <p>
+          Zuvor haben wir mit der Mitternachtsformel die Nullstellen einer
+          quadratischen Funktion bestimmt. Wir wissen allerdings, dass es nicht
+          immer Nullstellen gibt. Ergänze die Funktion, damit sie die drei
+          unterschiedlichen Fälle unterscheiden kann - zwei Nullstellen, eine
+          Nullstelle oder keine Nullstellen.
+          </p>
+          <div id="pqfun-improved-a" class="output">
+            <p>Die Nullstelle(n) von f(x) = x<sup>2</sup> - 2x + 1 lauten:</p>
+          </div>
+          <div id="pqfun-improved-b" class="output">
+            <p>Die Nullstelle(n) von f(x) = x<sup>2</sup> + 1 lauten: </p>
+          </div>
+        </section>
+
+        <section class="exercise">
+          <h2>Gerade und Ungerade Zahlen</h2>
+          <p>
+          Öffne die Datei <code>exercises/evenOdd.js</code>.  Schreibe eine
+          Funktion, die eine Zahl bekommt und "even" zurückgibt, wenn die Zahl
+          gerade ist, und andernfalls "odd".
+
+          <em>Tipp: Der Modulo-Operator <code>%</code> könnte hilfreich
+            sein.</em>
+          </p>
+          <div id="even" class="output">
+            <p>Ist 6 gerade oder ungerade?</p>
+          </div>
+          <div id="odd" class="output">
+            <p>Ist 7 gerade oder ungerade?</p>
+          </div>
+        </section>
+      </section>
+    </div>
+
+    <script src="exercises/pqformula.js"></script>
+    <script src="exercises/max.js"></script>
+    <script src="exercises/abs.js"></script>
+    <script src="exercises/evenOdd.js"></script>
+  </body>
+</html>
