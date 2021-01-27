@@ -17,6 +17,10 @@
   padding: 1rem;
 }
 
+.flex {
+  display: flex;
+}
+
 .button {
   display: block;
   padding: 0.5rem;
