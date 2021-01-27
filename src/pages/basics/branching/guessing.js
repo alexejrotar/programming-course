@@ -2,22 +2,20 @@
   let lower = 1;
   let upper = 1000000;
   let guessedNumber = 0;
+  let numberOfGuesses = 0;
 
   function guess() {
-    guessedNumber = Math.floor((lower + upper)/2);
-    let output = `<p>${guessedNumber}?</p>`;
-    appendTo('guessing', output);
+    guessedNumber = 0; // correct this line
+
+    let output = `${guessedNumber}?`;
+    replaceHtml('guessedNumber', output);
+    numberOfGuesses++;
+    replaceHtml('attempts', numberOfGuesses);
   }
 
   function adapt(direction) {
-    if (direction < 0) {
-      upper = guessedNumber;
-    } else if (direction > 0) {
-      lower = guessedNumber;
-    } else {
-      lower = upper = guessedNumber;
-      return;
-    }
+    // your code here
+
     guess();
   }
 
