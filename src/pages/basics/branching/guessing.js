@@ -1,23 +1,23 @@
-{
-  let lower = 1;
-  let upper = 1000000;
-  let guessedNumber = 0;
-  let numberOfGuesses = 0;
+'use strict';
 
-  function guess() {
-    guessedNumber = 0; // correct this line
+let lower = 1;
+let upper = 1000000;
+let guessedNumber = 0;
+let numberOfGuesses = 0;
 
-    let output = `${guessedNumber}?`;
-    replaceHtml('guessedNumber', output);
-    numberOfGuesses++;
-    replaceHtml('attempts', numberOfGuesses);
-  }
+function guess() {
+  guessedNumber = 0; // correct this line
 
-  function adapt(direction) {
-    // your code here
+  let output = `${guessedNumber}?`;
+  replaceHtml('guessedNumber', output);
+  numberOfGuesses++;
+  replaceHtml('attempts', numberOfGuesses);
+}
 
-    guess();
-  }
+function adapt(direction) {
+  // your code here
 
   guess();
 }
+
+guess();

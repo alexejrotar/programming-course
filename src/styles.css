@@ -41,3 +41,19 @@
   border: none;
   outline: none;
 }
+
+.trueButton {
+  background-color: green;
+}
+
+.falseButton {
+  background-color: red;
+}
+
+.correct {
+  background-color: green;
+}
+
+.incorrect {
+  background-color: red;
+}
