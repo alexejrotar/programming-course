@@ -20,22 +20,34 @@ function renderTrueFalseExercises() {
 }
 
 function renderTrueFalseItem(item) {
+  const controls = document.createElement('nav');
+  controls.classList.add('trueFalseButtons');
+  item.append(controls);
   renderTrueFalseButton(item, 'true');
   renderTrueFalseButton(item, 'false');
 }
 
 function renderTrueFalseButton(item, truthValue) {
-  let button = document.createElement('button');
+  const button = document.createElement('button');
+  button.classList.add('button');
   button.classList.add(`${truthValue}Button`);
+  if (truthValue === 'true') {
+    button.innerHTML = '&#10003;';
+  } else {
+    button.innerHTML = '&#65794;';
+  }
   button.addEventListener('click', (e) => handleTrueFalseItem(item, truthValue));
-  item.append(button);
+  item.querySelector('.trueFalseButtons').append(button);
 }
 
 function handleTrueFalseItem(item, truthValue) {
-  console.log(truthValue);
+  const question = item.querySelector('.question');
+
   if (item.classList.contains(truthValue)) {
-    item.classList.add('correct');
+    question.classList.add('correct');
+    question.classList.remove('incorrect');
   } else {
-    item.classList.add('incorrect');
+    question.classList.add('incorrect');
+    question.classList.remove('correct');
   }
 }
