@@ -124,6 +124,67 @@
           Versuch auszuschließen.
           </p>
         </section>
+
+        <section class="exercise">
+          <h2>Das Ratespiel gewinnen</h2>
+          <p>
+          Nun darfst du dir eine Zahl aussuchen und der Computer darf raten. Du
+          kannst entsprechend antworten, ob die geratene Zahl zu hoch oder zu
+          niedrig war. Öffne die Datei <code>guessing.js</code>
+          </p>
+          <div class="output">
+            <p>Ist es vielleicht...</p>
+            <p id="guessedNumber"></p>
+            <p>Bisherige Versuche: <span id="attempts"></span></p>
+
+          </div>
+          <nav class="flex">
+            <button class="button" onclick="adapt(-1)">Kleiner</button>
+            <button class="button" onclick="adapt(1)">Größer</button>
+          </nav>
+        </section>
+
+        <section class="exercise">
+          <h2>Schaltjahre bestimmen</h2>
+          <p>
+          Wir wollen bestimmen, ob ein bestimmtes Jahr ein Schaltjahr ist oder
+          nicht. Die Regeln für Schaltjahre lauten wie folgt:
+          </p>
+          <ol>
+            <li>
+              Wenn das Jahr durch 4 teilbar ist, ist es ein Schaltjahr.
+            </li>
+            <li>
+              Wenn es auch noch durch 100 teilbar ist, ist es kein Schaltjahr.
+            </li>
+            <li>
+              Wenn es durch 400 teilbar ist, ist es ein Schaltjahr.
+            </li>
+          </ol>
+          <p>
+          Schreibe in der Datei <code>leapYears.js</code> die Funktion
+          <code>isLeapYear</code>, die für ein gegebenes Jahr bestimmt, ob es
+          sich um ein Schaltjahr handelt oder nicht.
+          </p>
+
+          <form class="flex" name="leapYearForm" action="javascript:">
+            <input type="number" name="year">
+            <button class="button" onclick="checkLeapYear()">Prüfen</button>
+          </form>
+
+          <div id="leapYear" class="output"></div>
+        </section>
+
+        <section class="exercise">
+          <h2>Signumsfunktion</h2>
+          <p>
+          Schreibe in <code>sign.js</code> eine Funktion <code>sign</code>, die
+          eine Zahl bekommt und das Signum zurücktgibt, das heißt 1, falls die
+          Zahl positiv ist, 0, falls sie 0 ist und -1, falls sie negativ ist.
+          </p>
+          <div id="sign" class="output">
+          </div>
+        </section>
       </section>
     </div>
 
@@ -132,5 +193,8 @@
     <script src="abs.js"></script>
     <script src="evenOdd.js"></script>
     <script src="fizzBuzz.js"></script>
+    <script src="guessing.js"></script>
+    <script src="leapYears.js"></script>
+    <script src="sign.js"></script>
   </body>
 </html>
