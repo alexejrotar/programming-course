@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <%- include('head') %>
+  </head>
+  <body>
+    <h1><%= longTitle %></h1>
+    <p class="description"><%= description %></p>
+
+    <% subunits.forEach(function(subunit) { %>
+      <section class="subunit">
+        <h2><%= subunit.title %></h2>
+        <p><%= subunit.description %></p>
+        <%- include(subunit.assignment) %>
+      </section>
+    <% }) %>
+  </body>
+</html>
