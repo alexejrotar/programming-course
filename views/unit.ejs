@@ -2,18 +2,22 @@
 <html>
   <head>
     <title><%= title %></title>
-    <%- include('head') %>
+    <%- include('views/head') %>
   </head>
   <body>
-    <h1><%= longTitle %></h1>
-    <p class="description"><%= description %></p>
+    <div class="container">
+      <h1><%- longTitle %></h1>
+      <p class="description"><%= description %></p>
 
-    <% subunits.forEach(function(subunit) { %>
-      <section class="subunit">
-        <h2><%= subunit.title %></h2>
-        <p><%= subunit.description %></p>
-        <%- include(subunit.assignment) %>
-      </section>
-    <% }) %>
+      <%_ subunits.forEach(function(subunit) { %>
+        <section class="subunit">
+          <h2><%= subunit.title %></h2>
+          <%- include(`${basepath}/subunits/${subunit.identifier}/subunit`) %>
+        </section>
+        <%_ if ("script" in subunit) { %>
+          <script src="<%= `subunits/${subunit.identifier}/${subunit.script}.js` %>"></script>
+        <%_ } %>
+      <%_ }) %>
+    </div>
   </body>
 </html>
