@@ -1,6 +1,6 @@
 {
   "title": "JavaScript Basics",
-  "links": [
+  "units": [
     {
       "identifier": "operators",
       "text": "Operatoren"
