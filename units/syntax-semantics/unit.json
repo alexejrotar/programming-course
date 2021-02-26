@@ -1,0 +1,15 @@
+{
+  "title": "Syntax und Semantik",
+  "longTitle": "Syntax und Semantik - Die Regeln und Bedeutung einer Sprache",
+  "description": "Wenn wir Sätze bilden, müssen wir dabei gewissen Regeln folgen. Diese Regeln nennen wir <em>Syntax</em>. Die Sätze haben eine gewisse Bedeutung für uns. Diese Bedeutung nennen wir <em>Semantik</em>.",
+  "subunits": [
+    {
+      "title": "Syntaktische Fehler und semantische Fehler",
+      "identifier": "errors"
+    },
+    {
+      "title": "Doppeldeutigkeiten",
+      "identifier": "ambiguities"
+    }
+  ]
+}

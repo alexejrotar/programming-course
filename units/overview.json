@@ -3,8 +3,20 @@
   "longTitle": "Einführung in die Programmierung mit JavaScript",
   "units": [
     {
-      "identifier": "intro",
-      "text": "Einleitung"
+      "identifier": "algorithms",
+      "text": "Algorithmen"
+    },
+    {
+      "identifier": "memory",
+      "text": "Speicher"
+    },
+    {
+      "identifier": "syntax-semantics",
+      "text": "Syntax und Semantik"
+    },
+    {
+      "identifier": "intro-coding",
+      "text": "JavaScript Einleitung"
     },
     {
       "identifier": "operators",

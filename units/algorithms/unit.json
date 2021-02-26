@@ -1,0 +1,15 @@
+{
+  "title": "Algorithmen",
+  "longTitle": "Ein Algorithmus ist wie ein Rezept",
+  "description": "Ein Algorithmus ist eine Handlungsanweisung. Sie sollte möglichst genau und eindeutig formuliert werden, damit es zu keinen Missverständnissen kommt.",
+  "subunits": [
+    {
+      "title": "Münze suchen",
+      "identifier": "coin"
+    },
+    {
+      "title": "Karten sortieren",
+      "identifier": "sort"
+    }
+  ]
+}
