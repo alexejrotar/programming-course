@@ -14,16 +14,8 @@
       "text": "Verzweigungen"
     },
     {
-      "identifier": "loops",
-      "text": "Schleifen"
-    },
-    {
       "identifier": "datatypes",
       "text": "Datentypen"
-    },
-    {
-      "identifier": "appendix",
-      "text": "Sonstiges"
     }
   ]
 }
