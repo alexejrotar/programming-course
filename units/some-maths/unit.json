@@ -1,0 +1,27 @@
+{
+  "title": "Mathefunktionen",
+  "longTitle": "Ein Wenig Mathe",
+  "description": "Bisher haben wir ein paar Grundbegriffe der Informatik kennengelernt und einen ersten Einblick in die Sprache JavaScript gehabt. Wir haben Variablen kennengelernt, Funktionen und Verzweigungen. Bevor wir weitere Sprachkonstrukte anschauen, festigen wir zunächst, das bereits Bekannte. Dafür schreiben wir ein paar weitere Mathefunktionen.",
+  "subunits": [
+    {
+      "title": "Rechtwinklige Dreiecke",
+      "identifier": "pythagorean",
+      "script": "pythagorean"
+    },
+    {
+      "title": "Abstände berechnen",
+      "identifier": "distance",
+      "script": "distance"
+    },
+    {
+      "title": "Rechnen mit Kreisen",
+      "identifier": "circles",
+      "script": "circles"
+    },
+    {
+      "title": "Eine Leseübung",
+      "identifier": "reading",
+      "script": "reading"
+    }
+  ]
+}

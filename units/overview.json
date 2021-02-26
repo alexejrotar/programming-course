@@ -31,6 +31,10 @@
       "text": "Verzweigungen"
     },
     {
+      "identifier": "some-maths",
+      "text": "Ein wenig Mathe"
+    },
+    {
       "identifier": "datatypes",
       "text": "Datentypen"
     }

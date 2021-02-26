@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Mathefunktionen</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1,
+  shrink-to-fit=">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="../../src/styles.css">
+<script src="../../src/util.js"></script>
+
+  </head>
+  <body onload="">
+    <div class="container">
+      <h1>Ein Wenig Mathe</h1>
+      <p class="description">Bisher haben wir ein paar Grundbegriffe der Informatik kennengelernt und einen ersten Einblick in die Sprache JavaScript gehabt. Wir haben Variablen kennengelernt, Funktionen und Verzweigungen. Bevor wir weitere Sprachkonstrukte anschauen, festigen wir zunächst, das bereits Bekannte. Dafür schreiben wir ein paar weitere Mathefunktionen.</p>
+
+
+        <section class="subunit">
+          <h2>Rechtwinklige Dreiecke</h2>
+          <p>
+Laut Pythagoras ist ein Dreieck genau dann rechtwinklig, wenn dessen drei
+Seiten, <code>a</code>, <code>b</code> und <code>c</code>, die folgende Formel
+erfüllen: <code>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></code>. Schreibe
+eine Funktion, die überprüft, ob ein Dreieick rechtwinklig ist oder nicht.
+Beachte, dass die Seiten nicht notwendigerweise in der "richtigen" Reihenfolge
+übergeben werden. Das heißt, es könnte auch sein, dass <code>a</code> die
+Hypotenuse ist.
+</p>
+
+        </section>
+
+          <script src="pythagorean/pythagorean.js"></script>
+
+
+        <section class="subunit">
+          <h2>Abstände berechnen</h2>
+          <p>
+Mithilfe des Satzes von Pythagoras können wir auch Abstände von Punkten
+berechnen. Punkte werden durch ihre Koordinaten beschrieben. Schreibe eine
+Funktion, die für gegebene <code>x1</code>, <code>y1</code>, <code>x2</code>,
+<code>y2</code> den Abstand berechnet.
+</p>
+
+        </section>
+
+          <script src="distance/distance.js"></script>
+
+
+        <section class="subunit">
+          <h2>Rechnen mit Kreisen</h2>
+          <p>
+Wenn wir mit Kreisen arbeiten begegnet uns häufig die Zahl pi. Diese stellt uns
+JavaScript mittels <code>Math.PI</code> zur Verfügung. Schreibe jeweils eine
+Funktion, die aus gegebenem Radius den Umfang, sowie Flächeninhalt berechnet.
+Schreibe anschließend eine Funktion, die zwei Punkte (in Form von Koordinaten)
+bekommt. Der erste ist der Mittelpunkt, der zweite ein beliebiger Punkt auf dem
+Kreis. Berechne erneut Flächeninhalt und Umfang. Nutze dabei bereits
+implementierte Funktionen.
+</p>
+
+        </section>
+
+          <script src="circles/circles.js"></script>
+
+
+        <section class="subunit">
+          <h2>Eine Leseübung</h2>
+          <p>
+Lies dir die Funktion in <code>reading.js</code> durch und versuche zu erklären,
+was sie tut. Überprüfe deine Vermutung mit sinnvoll gewählten Beispielwerten.
+</p>
+<div id="reading" class="output"></div>
+
+        </section>
+
+          <script src="reading/reading.js"></script>
+
+
+    </div>
+  </body>
+</html>
