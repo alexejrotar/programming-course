@@ -1,0 +1,17 @@
+{
+  "title": "Operatoren für Zahlen",
+  "longTitle": "Arbeiten mit Variablen: Operatoren",
+  "description": "Wir haben gesehen, wie man mittels Variablen auf Speicher zugreifen kann.  Wenn wir allerdings nichts mit den Werten in unserem Speicher tun können, als sie zu lesen und zu schreiben, können wir keine besonders aufregenden Dinge damit tun. Was uns fehlt sind <em>Operatoren</em>, um Variablen und Konstanten auf verschiedene Weise miteinander zu verknüpfen. Zum Beispiel wollen wir gelegentlich zwei Werte miteinander addieren. Also brauchen wir den Operator <code>+</code>. Welche Operatoren könnten uns noch interessieren, um vernünftig rechnen können?",
+  "subunits": [
+    {
+      "title": "Operator Spielplatz",
+      "identifier": "operators",
+      "script": "operators"
+    },
+    {
+      "title": "Mitternachtsformel (p-q-Formel)",
+      "identifier": "pq",
+      "script": "pqfun"
+    }
+  ]
+}
