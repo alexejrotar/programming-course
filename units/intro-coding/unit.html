@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Erste Schritte mit JS</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1,
+  shrink-to-fit=">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="../../src/styles.css">
+<script src="../../src/util.js"></script>
+
+  </head>
+  <body onload="">
+    <div class="container">
+      <h1>Jetzt geht's los: erste Schritte mit JavaScript</h1>
+      <p class="description">Programmiersprachen geben uns Mittel an die Hand, dem Computer Anweisungen zu geben, wie wir sie in den beiden ersten Absätzen betrachtet haben. Da das Zwischenspeichern von Ergebnissen für die meisten Berechnungen notwendig (oder zumindest hilfreich) ist, betrachten wir zunächst, wie wir etwas in den Speicher schreiben, bzw. aus dem Speicher lesen können.</p>
+
+
+        <section class="subunit">
+          <h2>Variablen deklarieren und definieren</h2>
+          <p>
+Zunächst einmal wollen wir Zeilen nicht nach ihren Nummern adressieren, da
+es sehr schwierig wird, sich all die Adressen zu merken. Stattdessen geben
+wir Zeilen <em>aussagekräftige</em> Namen. Indem wir einer Zeile einen
+Namen gegeben haben, haben wir eine <em>Variable</em> erstellt. Wie das in
+JavaScript aussieht, kannst du in der Datei
+<code>exercises/variables.js</code> nachschauen.
+</p>
+
+<p>
+	Mit dem Schlüsselwort <code>let</code> teilst du mit, dass du einen
+	Speicherbereich reservieren möchtest. Darauf folgt der Name, mit dem du
+	auf diesen Bereich zugreifen möchtest. Mit <code>variable = wert</code>
+	schreibst du den <code>wert</code> in den entsprechenden Speicherbereich.
+	Spiele mit dem Wert der Variable <code>favoriteNumber</code> rum, um den
+	Wert der Lieblingszahl anzupassen.
+</p>
+
+<div class="output">
+  <p>Meine Lieblingszahl lautet <samp id="favoriteNumber"></samp></p>
+</div>
+
+        </section>
+
+          <script src="variables/variables.js"></script>
+
+
+        <section class="subunit">
+          <h2>Mittelwert bestimmen</h2>
+          <p>
+Ergänze den Code in <code>exercises/mean.js</code>, sodass in der Variable
+<code>mean</code> der Mittelwert der Variablen <code>a</code>, <code>b</code>
+und <code>c</code> steht.
+</p>
+<div class="output">
+  <p> Der Mittelwert von <samp id="abc"></samp> ist <samp
+    id="mean"></samp> </p>
+</div>
+
+        </section>
+
+          <script src="mean/mean.js"></script>
+
+
+        <section class="subunit">
+          <h2>Werte vertauschen</h2>
+          <p>
+Ergänze den Code in <code>exercises/swap.js</code> so, dass die Werte der beiden
+Variablen <code>a</code>, <code>b</code> vertauscht sind.
+</p>
+<div class="output">
+  <p>Werte vor Vertauschen: <samp id="beforeSwap"></samp></p>
+  <p>Werte nach Vertauschen: <samp id="afterSwap"></samp></p>
+</div>
+
+        </section>
+
+          <script src="swap/swap.js"></script>
+
+
+    </div>
+  </body>
+</html>

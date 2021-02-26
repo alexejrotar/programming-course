@@ -1,0 +1,55 @@
+{
+  "title": "Bedingungen und Verzweigungen",
+  "longTitle": "Bedingungen und Verzweigungen: die <code>if</code> Anweisung",
+  "description": "Wir haben bereits gelernt, wie man mit JavaScript rechnen kann.  Das alleine reicht allerdings nicht, um wirklich interessante Aufgaben lösen zu können. Zum Beispiel haben wir schon über das Sortieren gesprochen. Wenn uns nicht als Rechenoperatoren zur Verfügung steht, können wir dieses Problem kaum lösen.",
+  "subunits": [
+    {
+      "title": "Das Maximum bestimmen",
+      "identifier": "maxChallenge"
+    },
+    {
+      "title": "Noch ein Versuch",
+      "identifier": "max",
+      "script": "max"
+    },
+    {
+      "title": "Betragsfunktion",
+      "identifier": "abs",
+      "script": "abs"
+    },
+    {
+      "title": "Eine verbesserte Version der Mitternachtsformel",
+      "identifier": "pqfun",
+      "script": "pqimproved"
+    },
+    {
+      "title": "Gerade oder Ungerade?",
+      "identifier": "evenOdd",
+      "script": "evenOdd"
+    },
+    {
+      "title": "Fizz-Buzz",
+      "identifier": "fizzBuzz",
+      "script": "fizzBuzz"
+    },
+    {
+      "title": "Ein kleines Ratespiel",
+      "identifier": "guessingChallenge"
+    },
+    {
+      "title": "Das Ratespiel gewinnen",
+      "identifier": "guessing",
+      "script": "guessing"
+    },
+    {
+      "title": "Schaltjahre bestimmen",
+      "identifier": "leapYears",
+      "script": "leapYears"
+    },
+    {
+      "title": "Signumsfunktion",
+      "identifier": "sign",
+      "script": "sign"
+    }
+  ]
+}

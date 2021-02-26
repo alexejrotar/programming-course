@@ -1,0 +1,16 @@
+{
+  "title": "Speicher",
+  "longTitle": "Speicher ist wie ein Notizzettel",
+  "description": "Manchmal muss man sich im Laufe einer Berechnung etwas merken. Dafür braucht man einen Speicher. Stelle dir vor dein Speicher ist ein liniertes Blatt Papier. Du kannst etwas darauf schreiben und du kannst etwas wegradieren. Die Zeilen sind nummeriert, somit kannst du die einzelnen Zeilen <em>adressieren.</em>",
+  "subunits": [
+    {
+      "title": "Summe berechnen",
+      "identifier": "sum"
+    },
+    {
+      "title": "Maximum suchen",
+      "identifier": "max"
+    }
+  ]
+  
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Programmieren mit JavaScript",
+  "longTitle": "Einführung in die Programmierung mit JavaScript",
+  "units": [
+    {
+      "identifier": "algorithms",
+      "text": "Algorithmen"
+    },
+    {
+      "identifier": "memory",
+      "text": "Speicher"
+    },
+    {
+      "identifier": "syntax-semantics",
+      "text": "Syntax und Semantik"
+    },
+    {
+      "identifier": "intro-coding",
+      "text": "JavaScript Einleitung"
+    },
+    {
+      "identifier": "operators",
+      "text": "Operatoren"
+    },
+    {
+      "identifier": "functions",
+      "text": "Funktionen"
+    },
+    {
+      "identifier": "branching",
+      "text": "Verzweigungen"
+    },
+    {
+      "identifier": "datatypes",
+      "text": "Datentypen"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <%- include('views/head') %>
+  </head>
+  <body>
+    <div class="container">
+      <h1><%= longTitle %></h1>
+      <nav>
+        <ol>
+          <%_ units.forEach(function(unit) { %>
+          <li>
+            <a href="<%= unit.identifier %>/unit.html"><%= unit.text %></a>
+          </li>
+          <%_ }); %>
+        </ol>
+      </nav>
+  </body>
+</html>

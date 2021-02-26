@@ -1,0 +1,22 @@
+{
+  "title": "Erste Schritte mit JS",
+  "longTitle": "Jetzt geht's los: erste Schritte mit JavaScript",
+  "description": "Programmiersprachen geben uns Mittel an die Hand, dem Computer Anweisungen zu geben, wie wir sie in den beiden ersten Absätzen betrachtet haben. Da das Zwischenspeichern von Ergebnissen für die meisten Berechnungen notwendig (oder zumindest hilfreich) ist, betrachten wir zunächst, wie wir etwas in den Speicher schreiben, bzw. aus dem Speicher lesen können.",
+  "subunits": [
+    {
+      "title": "Variablen deklarieren und definieren",
+      "identifier": "variables",
+      "script": "variables"
+    },
+    {
+      "title": "Mittelwert bestimmen",
+      "identifier": "mean",
+      "script": "mean"
+    },
+    {
+      "title": "Werte vertauschen",
+      "identifier": "swap",
+      "script": "swap"
+    }
+  ]
+}
