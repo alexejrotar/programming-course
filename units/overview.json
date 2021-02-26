@@ -1,6 +1,11 @@
 {
-  "title": "JavaScript Basics",
+  "title": "Programmieren mit JavaScript",
+  "longTitle": "Einführung in die Programmierung mit JavaScript",
   "units": [
+    {
+      "identifier": "intro",
+      "text": "Einleitung"
+    },
     {
       "identifier": "operators",
       "text": "Operatoren"
