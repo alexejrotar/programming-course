@@ -7,7 +7,7 @@
   <body onload="<%= locals.renderFunction ? `${renderFunction}()`: '' %>">
     <div class="container">
       <h1><%- longTitle %></h1>
-      <p class="description"><%= description %></p>
+      <p class="description"><%- description %></p>
 
       <%_ subunits.forEach(function(subunit) { %>
         <section class="subunit">

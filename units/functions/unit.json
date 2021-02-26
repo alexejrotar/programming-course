@@ -1,0 +1,22 @@
+{
+  "title": "Funktionen",
+  "longTitle": "Ein erster Schritt zur Abstraktion: Funktionen",
+  "description": "Zuvor haben wir die Nullstellen einer quadratischen Funktion berechnet.  Wollen wir das nur ein einziges Mal ausführen, mag das in Ordnung sein.  Doch was wenn wir die Nullstellen von 10 Funktionen berechnen wollen?  Sollen wir dann zehn Mal die Mitternachtsformel kopieren? Was wenn wir etwas wesentlich komplizierteres mehrmals berechnen wollen? Die Lösung lautet <em>Funktionen</em>. Stell dir eine Funktion vor wie einen Zauberkasten: Du legst auf der einen Seite etwas rein. Der Zauberkasten tut etwas. Auf der anderen Seite kannst du dann etwas anderes rausnehmen.",
+  "subunits": [
+    {
+      "title": "Eine Funktion für die Mitternachtsformel",
+      "identifier": "pq",
+      "script": "pqfun"
+    },
+    {
+      "title": "Nochmal: Zwei Werte vertauschen",
+      "identifier": "swap",
+      "script": "swap"
+    },
+    {
+      "title": "Hochzählen",
+      "identifier": "counter",
+      "script": "counter"
+    }
+  ]
+}
