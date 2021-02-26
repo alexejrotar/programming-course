@@ -7,16 +7,11 @@
   --incorrect:  #C60A0A;
 }
 
-.exercise {
-  margin-bottom: 1rem;
-  padding: 1rem;
-  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
-}
-
-.chapter {
-  margin-bottom: 3px;
-  padding-bottom: 5px;
+.subunit {
+  margin: 3px;
+  padding: 5px;
   border-bottom: solid 1px #ddd;
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
 }
 
 .output {
