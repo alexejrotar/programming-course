@@ -1,12 +1,34 @@
-{
-  let counter = 0;
-
-  // your code here
+ {
+    let counter = 0;
   
-
-  for (let i=0; i<16; i++) {
-    let fizz = 'blub?'; // call your function here
-    let output = `<p>${i}: ${fizz}</p>`;
-    appendTo('fizzBuzz', output);
+    // your code here
+    function count() {
+      counter++;
+  
+      
+      if (counter % 15 == 0) {
+        return "fizzbuzz"; 
+      }
+  
+      else if (counter % 3 == 0) {
+        return "fizz";
+      }
+  
+      else if  (counter % 5 == 0) {
+        return "buzz";
+      }
+  
+      else {
+        return counter
+      }
+    }
+    
+  
+    
+    for (let i=0; i<16; i++) {
+      let fizz = count (); 
+      let output = `<p>${i+1}: ${fizz}</p>`;
+      appendTo('fizzBuzz', output);
+    }
   }
-}
+  

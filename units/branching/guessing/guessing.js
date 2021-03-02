@@ -6,7 +6,7 @@ let guessedNumber = 0;
 let numberOfGuesses = 0;
 
 function guess() {
-  guessedNumber = 0; // correct this line
+  guessedNumber = Math.floor((lower + upper)/2); // correct this line
 
   let output = `${guessedNumber}?`;
   replaceHtml('guessedNumber', output);
@@ -16,6 +16,16 @@ function guess() {
 
 function adapt(direction) {
   // your code here
+
+  if (direction == -1){
+    upper = guessedNumber
+  }
+  else if (direction == +1){
+    lower = guessedNumber
+  }
+    
+
+
 
   guess();
 }
