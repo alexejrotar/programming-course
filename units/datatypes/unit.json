@@ -12,7 +12,17 @@
     {
       "title": "'Nützliche' Funktionen für Strings",
       "identifier": "stringFunctions",
-      "script": "stringsFunctions"
+      "script": "stringFunctions"
+    },
+    {
+      "title": "String Spielplatz",
+      "identifier": "stringsPlayground",
+      "script": "playground"
+    },
+    {
+      "title": "Taschenrechner",
+      "identifier": "calculator",
+      "script": "calculator"
     },
     {
       "title": "Boolean - ein Datentyp für Wahrheit",

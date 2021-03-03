@@ -13,7 +13,7 @@
   <body onload="renderTrueFalseExercises()">
     <div class="container">
       <h1>Die Welt jenseits von Ganzzahlen: Datentypen String und Boolean</h1>
-      <p class="description">Bislang haben wir nur mit Zahlen gearbeitet. Auch wenn für den Computer tatsächlich alle Daten nur aus Zahlen bestehen, ist das für Menschen eher unüblich alle Daten als Zahlen aufzufassen. Manche Daten folgen ganz anderen Regeln als Zahlen und sind völlig anders aufgebaut. In der Informatik sprechen wir von verschiedenen &lt;em&gt;Datentypen&lt;/em&gt;.</p>
+      <p class="description">Bislang haben wir nur mit Zahlen gearbeitet. Auch wenn für den Computer tatsächlich alle Daten nur aus Zahlen bestehen, ist das für Menschen eher unüblich alle Daten als Zahlen aufzufassen. Manche Daten folgen ganz anderen Regeln als Zahlen und sind völlig anders aufgebaut. In der Informatik sprechen wir von verschiedenen <em>Datentypen</em>.</p>
 
 
         <section class="subunit">
@@ -49,7 +49,41 @@ Implementiere folgende Funktionen:
 
         </section>
 
-          <script src="stringFunctions/stringsFunctions.js"></script>
+          <script src="stringFunctions/stringFunctions.js"></script>
+
+
+        <section class="subunit">
+          <h2>String Spielplatz</h2>
+          <p>
+Schaue dir die Datei <code>playground.js</code> an und spiele mit den Strings
+herum, um zu verstehen, was die verschiedenen Funktionen machen. Vielleicht
+kannst du es schon vom Namen erraten.
+</p>
+<div id="playground" class="output"></div>
+
+        </section>
+
+          <script src="stringsPlayground/playground.js"></script>
+
+
+        <section class="subunit">
+          <h2>Taschenrechner</h2>
+          <p>
+Schreibe eine Funktion <code>compute</code> in der Datei
+<code>calculator.js</code>, die eine Rechnung als String bekommt und das
+Ergebnis ausrechnet. Z.B. "3 + 4" soll "7" ergeben. Dabei sollen Zahlen und
+Operatoren mit Leerzeichen getrennt sein. Es sollen die vier Grundrechenarten
+implementiert werden.
+</p>
+<form class="flex" name="calculatorForm" action="javascript:">
+  <input type="text" name="computation">
+  <button onclick="handleCompute()">Berechnen</button>
+</form>
+<div id="computation" class="output"></div>
+
+        </section>
+
+          <script src="calculator/calculator.js"></script>
 
 
         <section class="subunit">
