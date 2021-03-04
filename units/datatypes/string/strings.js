@@ -8,5 +8,3 @@ function strings() {
   appendParagraph('strings', `5 + 10 = ${5 + 10}`);
   appendParagraph('strings', '5 * 2 = ${5 * 2}');
 }
-
-
