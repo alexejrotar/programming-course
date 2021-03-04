@@ -10,5 +10,3 @@ function strings() {
   appendParagraph('strings', `7 + 3 = ${a + b}`);
   appendParagraph('strings', '7 * 3 = ${a * b}');
 }
-
-
