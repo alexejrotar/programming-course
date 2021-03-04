@@ -11,6 +11,7 @@ function stringsPlayground() {
     hello.substring(0,4),
     hello.split(' ')[0],
     hello.split(' ')[1],
+    '123.5' + 5,
     parseFloat('123.5') + 5,
     parseFloat('abc')
   ];
