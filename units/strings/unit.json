@@ -12,15 +12,21 @@
     {
       "title": "'Nützliche' Funktionen für Strings",
       "identifier": "stringFunctions",
-      "script": "stringsFunctions"
+      "script": "stringFunctions"
     },
     {
-      "title": "Boolean - ein Datentyp für Wahrheit",
-      "identifier": "boolean"
+      "title": "String Spielplatz",
+      "identifier": "stringsPlayground",
+      "script": "playground"
     },
     {
-      "title": "Denken in Schwarz-Weiß",
-      "identifier": "booleanLaws"
+      "title": "Taschenrechner",
+      "identifier": "calculator",
+      "script": "calculator"
+    },
+    {
+      "title": "Ein Taschenrechner mit Gedächtnis",
+      "identifier": "improvedCalculator"
     }
   ]
 }
