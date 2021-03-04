@@ -11,8 +11,8 @@ function stringsPlayground() {
     hello.substring(0,4),
     hello.split(' ')[0],
     hello.split(' ')[1],
-    parseInt('123') + 5,
-    parseInt('abc')
+    parseFloat('123.5') + 5,
+    parseFloat('abc')
   ];
 
   for (let paragraph of paragraphs) {

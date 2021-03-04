@@ -25,12 +25,8 @@
       "script": "calculator"
     },
     {
-      "title": "Boolean - ein Datentyp für Wahrheit",
-      "identifier": "boolean"
-    },
-    {
-      "title": "Denken in Schwarz-Weiß",
-      "identifier": "booleanLaws"
+      "title": "Ein Taschenrechner mit Gedächtnis",
+      "identifier": "improvedCalculator"
     }
   ]
 }

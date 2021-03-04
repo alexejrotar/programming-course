@@ -87,74 +87,15 @@ implementiert werden.
 
 
         <section class="subunit">
-          <h2>Boolean - ein Datentyp für Wahrheit</h2>
+          <h2>Ein Taschenrechner mit Gedächtnis</h2>
           <p>
-Wir haben bereits Verzweigungen und Bedingungen kennengelernt. Das Ziel war,
-bestimmte Programmabschnitte nur unter bestimmten Voraussetzungen auszuführen.
-Das bedeutet, wir haben überprüft, ob eine Bedingung <em>wahr</em> ist. Solche
-Bedingungen haben auch einen Datentyp <em>Boolean</em>. Die einzigen Werte, die
-dieser Typ annehmen kann sind <code>true</code> und <code>false</code>.
+Ergänze den Code für den Taschenrechner, sodass er sich das Ergebnis der
+vorherigen Rechnung merkt und als ersten Operanden verwendet, falls keiner
+eingegeben wird. Z.B. kann zunächst "2 + 2" eingegeben werden und es wird "4"
+ausgegeben. Anschließend wird nur noch "* 3" eingegeben und die Ausgabe lautet
+"12". Falls bereits bei der ersten Rechnung kein Operand vor dem Operator
+eingegeben wird, wird ein Fehler ausgegeben.
 </p>
-<p>
-Für Zahlen und Strings haben wir verschiedene Operatoren betrachtet, mit denen
-wir Werte der entsprechenden Datentypen miteinander verknüpfen können, um neue
-Werte zu erhalten. Bei Zahlen waren es die üblichen Rechenoperationen, bei
-Strings das Aneinanderhängen.  Wie können Wahrheitswerte verknüpft werden, um
-neue Wahrheitswerte zu erhalten?
-</p>
-
-        </section>
-
-
-        <section class="subunit">
-          <h2>Denken in Schwarz-Weiß</h2>
-          <p>
-Beim Rechnen mit Zahlen kennen wir gewisse Regeln, um Terme
-umzuformen und zu vereinfachen, z.B. Kommutativ-, Assoziativ- und
-Distributivgesetze.
-</p>
-<ol>
-  <li>
-    <div class="trueFalseItem true">
-      <div class="question">
-        <code>a || (b || c)</code> =
-        <code>(a || b) || c</code>
-      </div>
-    </div>
-  </li>
-  <li>
-    <div class="trueFalseItem true">
-      <div class="question">
-        <code>a &amp;&amp; (b || c)</code> =
-        <code>(a &amp;&amp; b) || (a &amp;&amp; c)</code>
-      </div>
-    </div>
-  </li>
-  <li>
-    <div class="trueFalseItem false">
-      <div class="question">
-        <code>a &amp;&amp; (b || c)</code> =
-        <code>(a &amp;&amp; b) || c</code>
-      </div>
-    </div>
-  </li>
-  <li>
-    <div class="trueFalseItem false">
-      <div class="question">
-        <code>!(a &amp;&amp; b)</code> =
-        <code>!a &amp;&amp; !b</code>
-      </div>
-    </div>
-  </li>
-  <li>
-    <div class="trueFalseItem true">
-      <div class="question">
-        <code>!(a || b)</code> =
-        <code>!a &amp;&amp; !b</code>
-      </div>
-    </div>
-  </li>
-</ol>
 
         </section>
 
