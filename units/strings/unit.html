@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Datentypen String und Boolean</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1,
+  shrink-to-fit=">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="../../src/styles.css">
+<script src="../../src/util.js"></script>
+
+  </head>
+  <body onload="renderTrueFalseExercises()">
+    <div class="container">
+      <h1>Die Welt jenseits von Ganzzahlen: Datentypen String und Boolean</h1>
+      <p class="description">Bislang haben wir nur mit Zahlen gearbeitet. Auch wenn für den Computer tatsächlich alle Daten nur aus Zahlen bestehen, ist das für Menschen eher unüblich alle Daten als Zahlen aufzufassen. Manche Daten folgen ganz anderen Regeln als Zahlen und sind völlig anders aufgebaut. In der Informatik sprechen wir von verschiedenen <em>Datentypen</em>.</p>
+
+
+        <section class="subunit">
+          <h2>String - der Datentyp für Texte</h2>
+          <p>
+Wollen wir Texte darstellen brauchen wir den Datentyp <em>String</em>.  Schaue
+dir die Datei <code>strings.js</code> an. Versuche zu erraten, wie die Ausgabe
+jeweils sein wird. Drücke dann auf ausführen, um deine Vermutungen zu
+überprüfen.
+</p>
+<div id="strings" class="output"></div>
+<button class="button" onclick="strings()">Ausführen</button>
+
+        </section>
+
+          <script src="string/strings.js"></script>
+
+
+        <section class="subunit">
+          <h2>&#39;Nützliche&#39; Funktionen für Strings</h2>
+          <p>
+Implementiere folgende Funktionen:
+</p>
+<ol>
+  <li><code>greet</code> bekommt einen Namen und gibt eine Begrüßung zurück,
+    z.B. "Hello, Bob!". Bekommt sie anstatt eines Namens einen leeren String,
+    soll sie "Hello, Nemo!" zurückgeben.</li>
+
+  <li><code>answer</code> bekommt eine Rechnung als String und eine Zahl und
+    gibt eine Antwort zurück, z.B. "The result of 2 + 2 is 5". Wir keine Zahl
+    übergeben, soll als Ergebnis immer 42 angenommen werden.</li>
+</ol>
+
+        </section>
+
+          <script src="stringFunctions/stringFunctions.js"></script>
+
+
+        <section class="subunit">
+          <h2>String Spielplatz</h2>
+          <p>
+Schaue dir die Datei <code>playground.js</code> an und spiele mit den Strings
+herum, um zu verstehen, was die verschiedenen Funktionen machen. Vielleicht
+kannst du es schon vom Namen erraten.
+</p>
+<div id="playground" class="output"></div>
+
+        </section>
+
+          <script src="stringsPlayground/playground.js"></script>
+
+
+        <section class="subunit">
+          <h2>Taschenrechner</h2>
+          <p>
+Schreibe eine Funktion <code>compute</code> in der Datei
+<code>calculator.js</code>, die eine Rechnung als String bekommt und das
+Ergebnis ausrechnet. Z.B. "3 + 4" soll "7" ergeben. Dabei sollen Zahlen und
+Operatoren mit Leerzeichen getrennt sein. Es sollen die vier Grundrechenarten
+implementiert werden.
+</p>
+<form class="flex" name="calculatorForm" action="javascript:">
+  <input type="text" name="computation">
+  <button onclick="handleCompute()">Berechnen</button>
+</form>
+<div id="computation" class="output"></div>
+
+        </section>
+
+          <script src="calculator/calculator.js"></script>
+
+
+        <section class="subunit">
+          <h2>Ein Taschenrechner mit Gedächtnis</h2>
+          <p>
+Ergänze den Code für den Taschenrechner, sodass er sich das Ergebnis der
+vorherigen Rechnung merkt und als ersten Operanden verwendet, falls keiner
+eingegeben wird. Z.B. kann zunächst "2 + 2" eingegeben werden und es wird "4"
+ausgegeben. Anschließend wird nur noch "* 3" eingegeben und die Ausgabe lautet
+"12". Falls bereits bei der ersten Rechnung kein Operand vor dem Operator
+eingegeben wird, wird ein Fehler ausgegeben.
+</p>
+
+        </section>
+
+
+    </div>
+  </body>
+</html>
