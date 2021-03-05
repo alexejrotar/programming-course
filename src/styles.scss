@@ -1,8 +1,15 @@
+  $light: #eee;
+  $light-hover: #ddd;
+  $dark:  #111;
+  $dark-hover: #333;
+  $correct:  #4FAB09;
+  $incorrect:  #C60A0A;
+
 .subunit {
   margin: 3px;
   padding: 5px;
   border-bottom: solid 1px #ddd;
-  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
 }
 
 .output {
@@ -35,40 +42,38 @@
 }
 
 .trueButton {
-  background-color: #eee;
-  color: #111;
-  border: 1px solid #111;
+  background-color: $light;
+  color: $dark;
+  border: 1px solid $dark;
 }
 
 .trueButton:hover {
-  background-color: #ddd;
+  background-color: $light-hover;
   border: #fff;
 }
 
 .falseButton {
-  background-color: #111;
-  color: #eee;
-  border: 1px solid #111;
+  background-color: $dark;
+  color: $light;
+  border: 1px solid $dark;
 }
 
 .falseButton:hover {
-  background-color: #333;
+  background-color: $dark-hover;
   border: #fff;
 }
 
 .question {
-  border: 2px solid rgba(0, 0, 0, 0);
+  border: 2px solid rgba(0,0,0,0);
   border-radius: 5px;
   padding: 0.5rem;
   margin: 0.5rem 0;
 }
 
 .correct {
-  border: 2px solid #4FAB09;
+  border: 2px solid $correct;
 }
 
 .incorrect {
-  border: 2px solid #C60A0A;
+  border: 2px solid $incorrect;
 }
-
-/*# sourceMappingURL=styles.css.map */
