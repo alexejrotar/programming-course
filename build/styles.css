@@ -1,13 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.01rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  margin: 2rem 0;
+  font-family: "DotGothic16", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  margin: 1rem;
+}
+
+a, a:visited, a:focus, a:hover {
+  color: #407294;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+em {
+  color: #aa00aa;
+  font-style: normal;
+}
+
+code {
+  font-family: monospace;
+  color: #008000;
+}
+
+button {
+  cursor: pointer;
+}
+
+ol, ul {
+  margin: 1rem 2rem;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+}
+
 .subunit {
   margin: 3px;
   padding: 5px;
-  border-bottom: solid 1px #ddd;
   box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
 .output {
-  background-color: #000;
-  color: #0f0;
+  background-color: #111;
+  color: #00e600;
   font: 1.1rem monospace;
   padding: 1rem;
 }
