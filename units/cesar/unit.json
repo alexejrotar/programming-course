@@ -1,0 +1,19 @@
+{
+  "title": "Cäsar Verschlüsselung",
+  "longTitle": "Cäsar Verschlüsselung - Schritte wiederholen",
+
+  "description": "In der folgenden Einheit schauen wir uns einen alten Verschlüsselungsalgorithmus von Cäsar an. Die Idee ist, jedes Zeichen eines Textes um eine bestimmte Anzahl Zeichen im Alphabet zu verschieben. Beispielsweise könnten wir jeden Buchstaben um eins verschieben. Der Text <code>abc</code> würde dann verschlüsselt <code>bcd</code> lauten. Unser Ziel ist nun, eine beliebige Eingabe nach diesem Schema zu verschlüsseln. Dazu müssen wir uns zunächst überlegen, wir eigentlich einen Text (also String) Zeichen für Zeichen bearbeiten können.",
+
+  "subunits": [
+    {
+      "title": "Wiederholung: einzelne Zeichen anschauen",
+      "identifier": "characters",
+      "script": "characters"
+    },
+    {
+      "title": "1 2 3 - Zählen mit JS..",
+      "identifier": "iterating",
+      "script": "iterating"
+    }
+  ]
+}
