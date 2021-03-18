@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ejs views/overview.ejs -f units/overview.json -o units/overview.html
+echo "compiled overview"
 
 for unit in ls -d units/*/
 do
