@@ -37,6 +37,10 @@
     {
       "identifier": "strings",
       "text": "Zeichenketten"
+    },
+    {
+      "identifier": "cesar",
+      "text": "Cäsar Verschlüsselung"
     }
   ]
 }
