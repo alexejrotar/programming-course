@@ -1,0 +1,16 @@
+{
+  "title": "Wahrheitswerte",
+  "longTitle": "Boolean - ein Datentyp für Wahrheit",
+  "description": "",
+  "renderFunction": "renderTrueFalseExercises",
+  "subunits": [
+    {
+      "title": "Der Datentyp Boolean",
+      "identifier": "boolean"
+    },
+    {
+      "title": "Denken in Schwarz und Weiß",
+      "identifier": "booleanLaws"
+    }
+  ]
+}

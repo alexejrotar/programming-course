@@ -39,6 +39,10 @@
       "text": "Zeichenketten"
     },
     {
+      "identifier": "boolean",
+      "text": "Wahrheitswerte"
+    },
+    {
       "identifier": "cesar",
       "text": "Cäsar Verschlüsselung"
     }
