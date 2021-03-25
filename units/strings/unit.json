@@ -2,7 +2,6 @@
   "title": "Datentypen String und Boolean",
   "longTitle": "Die Welt jenseits von Ganzzahlen: Datentypen String und Boolean",
   "description": "Bislang haben wir nur mit Zahlen gearbeitet. Auch wenn für den Computer tatsächlich alle Daten nur aus Zahlen bestehen, ist das für Menschen eher unüblich alle Daten als Zahlen aufzufassen. Manche Daten folgen ganz anderen Regeln als Zahlen und sind völlig anders aufgebaut. In der Informatik sprechen wir von verschiedenen <em>Datentypen</em>.",
-  "renderFunction": "renderTrueFalseExercises",
   "subunits": [
     {
       "title": "String - der Datentyp für Texte",

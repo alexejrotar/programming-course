@@ -100,7 +100,7 @@ ol, ul {
 
 .trueButton:hover {
   background-color: #ddd;
-  border: #fff;
+  border-color: #fff;
 }
 
 .falseButton {
@@ -111,7 +111,7 @@ ol, ul {
 
 .falseButton:hover {
   background-color: #333;
-  border: #fff;
+  border-color: #fff;
 }
 
 .question {
