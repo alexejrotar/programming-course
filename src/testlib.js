@@ -6,11 +6,19 @@ class Test {
   test(title, testFunction) {
     try {
       testFunction();
-      appendSuccess(this.id, `Test ${title} passed`);
+      this.appendSuccess(this.id, `Test ${title} passed`);
     } catch (assertError) {
-      appendFailure(this.id, `Test ${title} failed: ${assertError.message}`);
+      this.appendFailure(this.id, `Test ${title} failed: ${assertError.message}`);
     }
   }
+
+	appendSuccess(outputId, paragraph) {
+  	appendTo(outputId, `<p class="terminalSuccess">${paragraph}</p>`);
+	}
+
+	appendFailure(outputId, paragraph) {
+  	appendTo(outputId, `<p class="terminalFailure">${paragraph}</p>`);
+	}
 }
 
 function assertSame(expected, actual) {

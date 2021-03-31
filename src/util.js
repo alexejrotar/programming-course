@@ -11,14 +11,6 @@ function appendParagraph(elementId, paragraph) {
   document.getElementById(elementId).innerHTML += `<p>${paragraph}</p>`;
 }
 
-function appendSuccess(outputId, paragraph) {
-  appendTo(outputId, `<p class="terminalSuccess">${paragraph}</p>`);
-}
-
-function appendFailure(outputId, paragraph) {
-  appendTo(outputId, `<p class="terminalFailure">${paragraph}</p>`);
-}
-
 function renderTrueFalseExercises() {
   const trueFalseItems = document.querySelectorAll('.trueFalseItem');
 
