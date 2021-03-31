@@ -4,47 +4,56 @@ let memory = 0;
 
 function Basiccalculator(computation) {
   let split = computation.split(' '); // ["4", "+", "3"] 
-  let a = split[0]; // 4
-  let b = split[2]; // 3
 
-  // TODO: strukturiere den Code durch Kommentare
-  let c = split[1]; // +
-  if (a && b && c) {
-    a = parseFloat(a);
-    b = parseFloat(b);
-    if (c == '+') {
-      memory = a + b;
-    }
-    else if (c == '-') {
-      memory = a - b;
-    }
-    else if (c == '/') {
-      memory = a / b;
-    }
-    else if (c == '*') {
-      memory = a * b;
-    }
-    return memory;
+  if (split.length == 3) {
+    let first = parseFloat(split[0]);
+    let operator = split[1];
+    let second = parseFloat(split[2]);
+    return handle2Operands(first, operator, second);
   }
-  else if (a && c) {
-    c = parseFloat(c);
-    if (a == '+') {
-      memory += c
-    }
-    if (a == '-') {
-      memory -= c
-    }
-    if (a == '/') {
-      memory /= c
-    }
-    if (a == '*') {
-      memory *= c
-    }
-    return memory;
+
+  else if (split.length == 2) {
+    let operator = split[0];
+    let first = parseFloat(split[1]);
+    return handle1Operand (operator, first);
   }
   else {
     return "wrong input";
   }
+}
+
+function handle2Operands(first, operator, second) {
+  if (operator == '+') {
+    memory = first + second;
+  }
+  else if (operator == '-') {
+    memory = first - second;
+  }
+  else if (operator == '/') {
+    memory = first / second;
+  }
+  else if (operator == '*') {
+    memory = first * second;
+  }
+  return memory;
+}
+
+function handle1Operand(operator, first) {
+
+  first = parseFloat(first);
+  if (operator == '+') {
+    memory += first
+  }
+  if (operator == '-') {
+    memory -= first
+  }
+  if (operator == '/') {
+    memory /= first
+  }
+  if (operator == '*') {
+    memory *= first
+  }
+  return memory;
 }
 
 function handleCompute() {
