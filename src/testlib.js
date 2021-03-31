@@ -6,8 +6,9 @@ class Test {
   test(title, testFunction) {
     try {
       testFunction();
+      appendSuccess(this.id, `Test ${title} passed`);
     } catch (assertError) {
-      appendParagraph(this.id, `Test ${title} failed: ${assertError.message}`);
+      appendFailure(this.id, `Test ${title} failed: ${assertError.message}`);
     }
   }
 }

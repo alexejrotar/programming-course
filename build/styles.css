@@ -65,7 +65,7 @@ ol, ul {
 
 .output {
   background-color: #111;
-  color: #00e600;
+  color: white;
   font: 1.1rem monospace;
   padding: 1rem;
 }
@@ -127,6 +127,14 @@ ol, ul {
 
 .incorrect {
   border: 2px solid #C60A0A;
+}
+
+.terminalSuccess {
+  color: #008000;
+}
+
+.terminalFailure {
+  color: #ff0000;
 }
 
 /*# sourceMappingURL=styles.css.map */
