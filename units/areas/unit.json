@@ -1,0 +1,19 @@
+{
+  "title": "Flächeninhalte bestimmen",
+  "longTitle": "Mehr Mathe: Flächeninhalte bestimmen",
+  "description": "",
+  "subunits": [
+    {
+      "title": "Quadrat",
+      "identifier": "square",
+      "script": "square",
+      "test": "squareTest"
+    },
+    {
+      "title": "Dreiecke",
+      "identifier": "triangle",
+      "script": "triangle",
+      "test": "triangleTest"
+    }
+  ]
+}

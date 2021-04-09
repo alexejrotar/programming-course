@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Wahrscheinlichkeitsverteilungen</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1,
+  shrink-to-fit=">
+<!-- <link rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+  crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="../../build/styles.css">
+    <script src="../../src/util.js"></script>
+    <script src="../../src/testlib.js"></script>
+  </head>
+  <body onload="">
+    <div class="container">
+      <h1>Funktionen für Wahrscheinlichkeitsverteilungen</h1>
+      <p class="description"></p>
+
+
+        <section class="subunit">
+          <h2>Fakultät</h2>
+          <p>Sieh dir die Funktion <code>fac</code> an. Probiere verschiedene Eingaben aus und überprüfe die Ausgabe. Was berechnet sie?</p>
+
+<form name="factorialForm" action="javascript:">
+	<input type="number" name="number">
+	<button class="button" onclick="outputFactorial()">Ausführen</button>
+</form>
+
+<div class="output" id="factorial"></div>
+
+
+        </section>
+
+          <script src="factorial/factorial.js"></script>
+          <script src="factorial/undefined.js"></script>
+
+
+        <section class="subunit">
+          <h2>Binomialkoeffizient</h2>
+          <p>Schreibe eine Funktion <code>nCr</code>, die für zwei gegebene Zahlen <code>n</code> und <code>k</code> den Binomialkoeffizienten berechnet. Du kannst die Funktion <code>fac</code> dafür verwenden. Die unten aufgelisteten Tests müssen grün sein.</p>
+<div class="testOutput" id="ncrTest"></div>
+
+        </section>
+
+          <script src="nCr/ncr.js"></script>
+          <script src="nCr/ncrTest.js"></script>
+
+
+        <section class="subunit">
+          <h2>Binomialverteilung</h2>
+          <p>Schreibe eine Funktion <code>bin</code>, die drei Zahlen als Eingabe bekommt: Eine Stichprobengröße, Trefferwahrscheinlichkeit und Trefferanzahl. Sie sollte die Wahrscheinlichkeit ausgeben, dass eine bestimmte Anzahl Treffer in der Stichprobe enthalten ist. Die Funktion <code>nCr</code> könnte hilfreich sein.</p>
+<div class="testOutput" id="binomialTest"></div>
+
+        </section>
+
+          <script src="binomial/binomial.js"></script>
+          <script src="binomial/binomialTest.js"></script>
+
+
+        <section class="subunit">
+          <h2>Hypergeometrische Verteilung</h2>
+          <p>Schreibe eine Funktion für die hypergeometrische Verteilung: sie bekommt vier Zahlen als Eingabe: Populationsgröße, Anzahl Treffer in der Population, Stichprobengröße und Anzahl Treffer in der Stichprobe. Sie sollte die Wahrscheinlichkeit berechnen, dass in der Stichprobe die gegebene Anzahl Treffer vorkommen. Die Funktion <code>nCr</code> könnte nützlich sein.</p>
+<div class="testOutput" id="hypergeometricTest"></div>
+
+        </section>
+
+          <script src="hypergeometric/hypergeometric.js"></script>
+          <script src="hypergeometric/hypergeometricTest.js"></script>
+
+
+    </div>
+  </body>
+</html>

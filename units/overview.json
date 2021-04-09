@@ -43,6 +43,10 @@
       "text": "Wahrheitswerte"
     },
     {
+      "identifier": "probability",
+      "text": "Wahrscheinlichkeitsverteilungen"
+    },
+    {
       "identifier": "cesar",
       "text": "Cäsar Verschlüsselung"
     }

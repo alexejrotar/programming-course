@@ -1,0 +1,30 @@
+{
+  "title": "Wahrscheinlichkeitsverteilungen",
+  "longTitle": "Funktionen für Wahrscheinlichkeitsverteilungen",
+  "description": "",
+  "subunits": [
+    {
+      "title": "Fakultät",
+      "identifier": "factorial",
+      "script": "factorial"
+    },
+    {
+      "title": "Binomialkoeffizient",
+      "identifier": "nCr",
+      "script": "ncr",
+      "test": "ncrTest"
+    },
+    {
+      "title": "Binomialverteilung",
+      "identifier": "binomial",
+      "script": "binomial",
+      "test": "binomialTest"
+    },
+    {
+      "title": "Hypergeometrische Verteilung",
+      "identifier": "hypergeometric",
+      "script": "hypergeometric",
+      "test": "hypergeometricTest"
+    }
+  ]
+}
