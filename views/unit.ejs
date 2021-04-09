@@ -18,8 +18,10 @@
           <%- include(`${basepath}/${subunit.identifier}/subunit`) %>
         </section>
         <%_ if ("script" in subunit) { %>
-          <script src="<%= `${subunit.identifier}/${subunit.script}.js` %>"></script>
-          <script src="<%= `${subunit.identifier}/${subunit.test}.js` %>"></script>
+          <script src="<%= `${subunit.identifier}/${subunit.identifier}.js` %>"></script>
+        <%_ } %>
+        <%_ if ("test" in subunit) { %>
+          <script src="<%= `${subunit.identifier}/${subunit.identifier}Test.js` %>"></script>
         <%_ } %>
       <%_ }) %>
     </div>

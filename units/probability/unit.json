@@ -4,7 +4,7 @@
   "description": "",
   "subunits": [
     {
-      "title": "Fakultät",
+      "title": "Noch eine Leseübung",
       "identifier": "factorial",
       "script": "factorial"
     },

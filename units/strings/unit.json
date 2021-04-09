@@ -5,7 +5,7 @@
   "subunits": [
     {
       "title": "String - der Datentyp für Texte",
-      "identifier": "string",
+      "identifier": "strings",
       "script": "strings"
     },
     {
@@ -15,7 +15,7 @@
     },
     {
       "title": "String Spielplatz",
-      "identifier": "stringsPlayground",
+      "identifier": "playground",
       "script": "playground"
     },
     {

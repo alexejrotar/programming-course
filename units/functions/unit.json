@@ -5,7 +5,7 @@
   "subunits": [
     {
       "title": "Eine Funktion für die Mitternachtsformel",
-      "identifier": "pq",
+      "identifier": "pqfun",
       "script": "pqfun"
     },
     {
