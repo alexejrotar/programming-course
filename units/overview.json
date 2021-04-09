@@ -39,12 +39,12 @@
       "text": "Zeichenketten"
     },
     {
-      "identifier": "areas",
-      "text": "Flächeninhalte"
-    },
-    {
       "identifier": "boolean",
       "text": "Wahrheitswerte"
+    },
+    {
+      "identifier": "probability",
+      "text": "Wahrscheinlichkeitsverteilungen"
     },
     {
       "identifier": "cesar",
