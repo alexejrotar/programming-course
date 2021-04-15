@@ -14,6 +14,11 @@
       "title": "1 2 3 - Zählen mit JS..",
       "identifier": "iterating",
       "script": "iterating"
+    },
+    {
+      "title": "Zeichen für Zeichen",
+      "identifier": "iteratingStrings",
+      "script": ""
     }
   ]
 }
