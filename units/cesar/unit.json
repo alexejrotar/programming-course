@@ -25,6 +25,12 @@
       "identifier": "singleCharEncryption",
       "script": true,
       "test": true
+    },
+    {
+      "title": "Endlich: Cäsar-Verschlüsselung vervollständigen",
+      "identifier": "encryption",
+      "script": true,
+      "test": true
     }
   ]
 }
