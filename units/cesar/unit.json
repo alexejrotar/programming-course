@@ -19,6 +19,12 @@
       "title": "Zeichen für Zeichen",
       "identifier": "iteratingStrings",
       "script": ""
+    },
+    {
+      "title": "Ein Zeichen verschlüsseln",
+      "identifier": "singleCharEncryption",
+      "script": true,
+      "test": true
     }
   ]
 }
