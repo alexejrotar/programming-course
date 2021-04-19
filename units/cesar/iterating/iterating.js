@@ -22,3 +22,18 @@ function count(from, to) {
 
 	count(from+1, to);
 }
+
+countFromCounter(7);
+count(9,16);
+
+function countdown(from) {
+	if (0 == from) {
+		return;
+	}
+
+	appendTo('countdown', `${from} `);	
+
+	countdown(from-1)
+}
+
+countdown(5);
