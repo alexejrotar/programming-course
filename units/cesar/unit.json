@@ -21,6 +21,11 @@
       "script": ""
     },
     {
+      "title": "Buchstaben aus Zahlen",
+      "identifier": "ascii",
+      "script": true
+    },
+    {
       "title": "Ein Zeichen verschlüsseln",
       "identifier": "singleCharEncryption",
       "script": true,
