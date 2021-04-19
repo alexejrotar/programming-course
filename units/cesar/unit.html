@@ -68,6 +68,21 @@ Schaue dir die Datei <code>iterating.js</code> an. Du findest dort zwei Funktion
 
 
         <section class="subunit">
+          <h2>Buchstaben aus Zahlen</h2>
+          <form class="flex" action="javascript:" name="asciiForm">
+  <input type="text" name="character">
+  <button class="button" onclick="handleToAscii()">Zu ASCII</button>
+  <input type="number" name="ascii">
+  <button class="button" onclick="handleToChar()">Zu Buchstaben</button>
+</form>
+
+        </section>
+
+          <script src="ascii/ascii.js"></script>
+
+
+
+        <section class="subunit">
           <h2>Ein Zeichen verschlüsseln</h2>
           <p>Überlege dir, wie wir die eben verwendeten Methoden anwenden können, um einen beliebigen Text zu verschlüsseln. Dazu musst du zunächst verstehen, wie du ein einzelnes Zeichen verschlüsseln kannst. Was brauchst du dafür? Recherchiere, was ASCII Codes sind und wie man in JS damit arbeiten kann. Schreibe mithilfe dieser Information eine Funktion, die ein beliebiges Zeichen und eine Zahl bekommt und das Zeichen um entsprechend viele Stellen verschoben zurückgibt.</p>
 <div class="testOutput" id="singleCharEncryptionTest"></div>
@@ -84,6 +99,12 @@ Schaue dir die Datei <code>iterating.js</code> an. Du findest dort zwei Funktion
           <h2>Endlich: Cäsar-Verschlüsselung vervollständigen</h2>
           <p>Nun haben wir alles, was wir brauchen, um einen belieben Text zu verschlüsseln. Schreibe eine Funktion <code>encrypt</code>, die einen beliebigen Text und eine Zahl (einen Schlüssel) bekommt und den Text verschlüsselt zurückgibt.</p>
 <div class="testOutput" id="encryptionTest"></div>
+<form action="javascript:" name="encryptionForm">
+  <input type="text" name="plainText">
+  <input type="number" name="key" value="0">
+  <button class="button" onclick="handleEncrypt()">Verschlüsseln</button>
+</form>
+<div class="output" id="encryption"></div>
 
         </section>
 
